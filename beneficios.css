@@ -1,0 +1,93 @@
+:root {
+  --master-bg-color: #f9f9f1;
+  --sec-color-: #E06A44;
+  --thir-color: #c7c7c7;
+  --last-color: #ffffff;
+
+  --bg-color: #f3f8fa;
+  --white-color: #fff;
+  --black-color: #282936;
+  --ease-transition: cubic-bezier(0.65, 0, .076, 1);
+  --duration-transition: 0.45s;
+}
+
+#beneficios {
+  width: 100%;
+  margin-top: 11rem;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 0.8fr 1fr 0.1fr 1fr;
+  grid-template-areas:
+   'vazio2 image image intro intro intro intro'
+   'vazio2 image image sau amb vazio vazio'
+   'vazio2 image image ani rec vazio vazio';
+   gap: 1rem;
+}
+
+.introducao-beneficios {
+  grid-area: intro;
+  display: flex;
+  flex-direction: column; 
+}
+
+.h1-section {
+  font-size: 2.7rem;
+}
+
+.p1-section {
+  width: 80%;
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+
+.container-saude {grid-area: sau;}
+
+.container-ambiental { grid-area: amb;}
+
+.container-animal {grid-area: ani;}
+
+.container-recursos {grid-area: rec;}
+
+.container-image {grid-area: image;}
+
+.vazio { 
+  grid-area: vazio;
+  padding: 5rem;
+}
+
+.vazio2 { 
+  grid-area: vazio2;
+  padding: 5rem;
+}
+
+
+
+.container-ambiental,
+.container-animal,
+.container-saude,
+.container-recursos {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.titulos-beneficios {
+  color: #E06A44;
+  font-size: 1.7rem;
+}
+
+.paragrafo-beneficios {
+  font-size: 1.35rem;
+  text-align: justify;
+}
+
+#image-2 {
+  width: 43vw;
+  mix-blend-mode: darken;
+}

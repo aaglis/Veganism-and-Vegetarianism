@@ -1,0 +1,180 @@
+/*import font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.cdnfonts.com/css/recoleta');
+@import url('https://fonts.cdnfonts.com/css/avenir');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+/*var*/
+:root {
+  --master-bg-color: #f9f9f1;
+  --sec-color-: #E06A44;
+  --thir-color: #c7c7c7;
+  --last-color: #ffffff;
+
+  --bg-color: #f3f8fa;
+  --white-color: #fff;
+  --black-color: #282936;
+  --ease-transition: cubic-bezier(0.65, 0, .076, 1);
+  --duration-transition: 0.45s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px;
+  background-color: var(--master-bg-color);
+  font-family: Signika;
+}
+
+header {
+  background-color: var(--master-bg-color);
+  display: flex;
+  align-items: center;
+  z-index: 999; /*
+  serve para trabalhar com camadas. Mas só funciona com 'positions' definidos, exceto
+  'estatic'
+  */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content:space-between;
+  border-bottom: 2.7px solid black;
+  padding: 0.6rem;
+
+}
+
+
+#title {
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.navbar {
+  margin-right: 3rem; 
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+.navbar-mobile-menu {
+  display: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+ul a.ative {
+  color: red;
+}
+
+li{
+  position: relative;
+  display: inline-block;
+  font-size: 1.36rem;
+  top: 0.1rem;
+  margin: 20px;
+}
+
+li:hover {
+  color: var(--sec-color-);
+  /*altera a cor quando passar o mouse por cima*/
+  transition: 0.3s all;
+  /*quanto tempo vai demorar pra mudar a cor, para dos os a's*/
+}
+
+li::after {
+  content: " ";
+  width: 0%;
+  height: 0.18rem;
+  border-radius: 2rem;
+  background-color: var(--sec-color-);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.35s all;
+}
+
+li:hover::after {
+  width: 100%;
+}
+
+
+#sobre {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  margin-top: 9.5rem;
+}
+
+#titulos {
+  position: absolute;
+  font-size: 2.5rem;
+  line-height: 3.9rem;
+  margin-top: 4.5rem;
+  margin-left: 5rem;
+}
+
+#master-h2-2 {
+  display: flex;
+  position: relative;
+  font-size: 3.6rem;
+  left: 0.87rem;
+  color: var(--sec-color-);
+}
+
+#container-p {
+
+  width:32%;
+
+}
+
+#firstText {
+  font-family: sans-serif;
+  width: auto;
+  font-size: 1.5rem;
+  margin-top: 1.4rem;
+  margin-left: 1.1rem;
+  line-height: 2.3rem;
+  /*deixa o texto alinhado*/
+  text-align: justify;
+
+}
+
+#veganism {
+  display: flex;
+  mix-blend-mode:darken;
+  width: 42vw;
+  margin-top: 20px;
+  margin-left: 53rem; /* TIRA O FUNDO DA IMAGEM!!!!!!!!!!*/
+}
+
+#container-sobrepor {
+  display:flex;
+}
+
+/* #read-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 12rem;
+  margin-right: 7.5rem;
+}
+
+#scroll {
+  font-size: 1.2rem;
+}
+
+#arrow {
+  position: relative;
+  width: 2rem;
+  top: 2.3rem;
+  right: 7.3rem;
+
+} */

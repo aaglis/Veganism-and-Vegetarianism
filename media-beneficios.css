@@ -1,0 +1,271 @@
+@media screen and (max-width:1742px) {
+  #beneficios {
+    grid-template-columns: 0.1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.01fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:1687px) {
+  .h1-section {
+    font-size: 2.5rem;
+  }
+  .p1-section {
+    font-size: 1.3rem;
+  }
+  
+  .titulos-beneficios {
+    font-size: 1.5rem;
+  }
+  
+  .paragrafo-beneficios {
+    font-size: 1.26rem;
+  }
+}
+
+@media screen and (max-width:1580px) {
+  .h1-section {
+    font-size: 2.2rem;
+  }
+  .p1-section {
+    font-size: 1.29rem;
+  }
+  
+  .titulos-beneficios {
+    font-size: 1.3rem;
+  }
+  
+  .paragrafo-beneficios {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width:1505px) {
+  #beneficios {
+    margin-top: 12rem;
+  }
+  
+}
+
+@media screen and (max-width: 1436px) {
+
+  #beneficios {
+      grid-template-areas:
+   ' vazio2 intro intro intro intro intro intro'
+   ' vazio2 sau amb image image vazio vazio'
+   ' vazio2 ani rec image image vazio vazio';
+   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+  }
+
+  .introducao-beneficios {
+    width: 70%;
+  }
+
+
+  .h1-section {
+    font-size: 1.8rem;
+  }
+  .p1-section {
+    font-size: 1.2rem;
+  }
+  
+  .titulos-beneficios {
+    font-size: 1.15rem;
+  }
+  
+  .paragrafo-beneficios {
+    font-size: 1.1rem;
+  }
+
+}
+@media screen and (max-width:1366px) {
+  .h1-section {
+    font-size: 1.7rem;
+  }
+  .p1-section {
+    font-size: 1.1 rem;
+  }
+  
+  .titulos-beneficios {
+    font-size: 1.1rem;
+  }
+  
+  .paragrafo-beneficios {
+    font-size: 1rem;
+  }
+  
+}
+
+@media screen and (max-width: 1180px) {
+
+  #beneficios {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 0.5fr 0.5fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 1fr;
+    grid-template-areas:
+     'vazio2 intro intro vazio vazio'
+     'vazio2 image image vazio vazio'
+     'vazio2 sau amb vazio vazio'
+     'vazio2 ani rec vazio vazio';
+}
+
+.introducao-beneficios {
+  width: 100%;
+  align-items: center;
+}
+.container-ambiental,
+.container-animal,
+.container-saude,
+.container-recursos {
+  width: 90%;
+}
+  
+  .h1-section {
+    font-size: 1.7rem;
+  }
+  .p1-section {
+    font-size: 1.14 rem;
+  }
+  
+  .titulos-beneficios {
+    font-size: 1.2rem;
+  }
+  
+  .paragrafo-beneficios {
+    font-size: 1.05rem;
+  }  
+  #image-2 {
+    width: 53vw;
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  #beneficios {
+    grid-template-columns: 2fr 2fr 2fr 0.1fr 0.1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 1fr;
+  }
+
+  .container-ambiental,
+.container-animal,
+.container-saude,
+.container-recursos {
+  width: 100%;
+}
+
+.p1-section {
+  width: 100%;
+}
+
+
+  #image-2 {
+    width: 53vw;
+    margin-left: 0.5rem;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+    #beneficios {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .h1-section {
+    font-size: 2.3rem;
+  }
+  
+  .p1-section {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+  
+  .container-ambiental,
+.container-animal,
+.container-saude,
+.container-recursos {
+  width: 50%;
+}
+  
+
+.titulos-beneficios {
+  font-size: 1.4rem;
+}
+
+.paragrafo-beneficios {
+  font-size: 1.25rem;
+} 
+
+
+  #image-2 {
+    width: 70vw;
+    margin: 0;
+  }
+
+}
+
+@media screen and (max-width:690px) {
+  .p1-section {
+    width: 89%;
+    font-size: 1.34rem;
+  }
+
+  #beneficios {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .container-ambiental,
+  .container-animal,
+  .container-saude,
+  .container-recursos {
+    width: 80%;
+  }
+
+  .h1-section {
+    font-size: 2rem;
+  }
+
+  .p1-section {
+    font-size: 1.3rem;
+  }
+
+  #image-2 {
+    width: 80vw;
+  }
+
+  .titulos-beneficios {
+    font-size: 1.35rem;
+  }
+
+  .paragrafo-beneficios {
+    font-size: 1.16rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .h1-section {
+    font-size: 1.8rem;
+  }
+
+  .p1-section {
+    font-size: 1.2rem;
+  }
+
+  #image-2 {
+    width: 94vw;
+  }
+
+  .titulos-beneficios {
+    font-size: 1.25rem;
+  }
+
+  .paragrafo-beneficios {
+    text-align: justify;
+    font-size: 1rem;
+  }
+}

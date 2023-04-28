@@ -1,0 +1,428 @@
+
+
+@media screen and (max-width: 1750px) {
+  
+  #titulos {
+    margin-left: 2rem;
+  }
+
+  #veganism {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 1687px) {
+
+  #sobre {
+    margin-left: 1rem;
+  }
+
+  #veganism {
+    margin-left: 51.5rem;
+  }
+
+  #titulos {
+    font-size: 2.2rem;
+  }
+
+  #master-h2-2 {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 1580px) {
+
+  #sobre {
+    right: 2rem;
+  }
+
+  #titulos {
+    font-size: 2rem;
+    margin-top: 3.6rem;
+    margin-left: 10rem;
+    line-height: 3.5rem;
+  }
+
+  #master-h2-2 {
+    font-size: 3rem;
+  }
+
+  #firstText {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 1436px){
+
+  #sobre {
+    right: 5rem;
+  }
+
+  #titulos{
+
+    font-size: 1.9rem;
+    margin-left: 11.4rem;
+    margin-top: 2rem;
+    line-height: 3rem;
+
+  }
+
+  #master-h2-2 {
+
+    font-size: 2.8rem;
+
+  }
+
+  #container-p {
+    width: 35%;
+  }
+
+  #firstText {
+    font-size: 1.2rem;  
+    line-height: 1.85rem;
+    margin-top: 0.8rem;
+  }
+
+  #veganism {
+    margin-left: 50rem;
+    margin-top: -0.1rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  #sobre{
+    right: 5rem;
+  }
+
+  #titulos {
+    font-size: 1.7rem;
+    margin-left: 12rem;
+    margin-top: -0.01rem;
+    line-height: 2.9rem;
+  }
+
+  #container-p {
+    width: 33%;
+  }
+
+  #firstText {
+    font-size: 1.7rem;
+    margin-top: 0.7rem;
+    line-height: 1.9rem;
+  }
+
+  #master-h2-2 {
+    font-size: 2.5rem;
+  }
+
+  #veganism {
+    margin-top: -1.5rem;
+    margin-left: 45rem;
+  }
+
+  #firstText {
+    font-size: 1.05rem;
+    line-height: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+
+  header {
+    font-size: 0.8rem;
+  }
+
+  li {
+    font-size: 1.1rem;
+  }
+
+  #sobre {
+    margin-top: 9rem;
+  }
+  
+  #titulos {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    margin-left: 16rem;
+  }
+
+  #master-h2-2 {
+    font-size: 2.2rem;
+  }
+
+  #firstText{
+    font-size: 1.1rem;
+    line-height: 1.45rem;
+  }
+
+  #veganism {
+    margin-right: 5rem;
+  }
+
+
+}
+
+@media screen and (max-width:1050px) {
+
+  #sobre{
+    margin-top: 6.5rem;
+    margin-left: 11rem;
+  }
+
+  #titulos {
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    line-height: 2.4rem;
+    margin-top: 2rem;
+  }
+
+  #container-p {
+    width: 38%;
+  }
+
+  #firstText {
+    font-size: 1rem;
+    margin-top: 0.7rem;
+    line-height: 1.4rem;
+  }
+
+  #master-h2-2 {
+    font-size: 2.1rem;
+  }
+
+  #veganism {
+    margin-top: 1rem;
+    margin-left: 30rem;
+  }
+}
+
+@media screen  and (max-width:900px) {
+
+  header {
+    flex-direction: column;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+
+  #title {
+    margin: 0;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .navbar {
+    margin: 0;
+  }
+
+  #sobre {
+    display: flex;
+    margin-top: 9rem;
+    margin-left: 5.6rem;
+  }
+
+  #container-sobrepor {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #titulos {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.9rem;
+    width: auto;
+  }
+
+  #master-h2-2 {
+    font-size: 2.9rem;
+    margin-left: -1rem;
+    width: auto;
+  }
+
+  #container-p {
+    width: 67%;
+  }
+
+  #firstText {
+    width: auto;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+
+  #veganism {
+    display: flex;
+    margin: 0;
+    margin-left: 1rem;
+    width: 70vw;
+  }
+}
+
+
+@media screen and (max-width:690px) {
+
+  header {
+    flex-direction: row;
+    padding: 0.7rem;
+  }
+  
+  .icon {
+    width: 5vw;
+    margin-right: 3rem;
+  }
+
+  .navbar-mobile-menu {
+    display: block;  
+  } 
+
+  .navbar-mobile-menu button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .navbar-mobile .navbar li {
+    margin: 5px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar-mobile ul {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    top: 7rem;
+    right: 3.8rem;
+  }
+
+  .navbar-mobile li {
+    display: block;
+    font-size: 1.2rem;
+    margin: 5px;
+  }
+
+  .open {
+    display: block;
+  }
+
+  .padding-header {
+    padding-bottom: 9rem;
+  }
+
+  .move-title {
+    position: relative;
+    bottom: 2.2rem;
+  }
+
+  .move-button {
+    position: relative;
+    bottom: 2rem;
+  }
+
+  #sobre {
+    margin-top: 6rem;
+    margin-left: 5rem;
+  }
+
+  #titulos {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  #master-h2-2 {
+    font-size: 2.3rem;
+  }
+
+
+  #container-p {
+    width: 70%;
+  }
+
+  #firstText {
+    margin: 0;
+    margin-top: 0.7rem;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
+
+}
+
+@media screen and (max-width: 600px) {  
+
+  #titulos {
+    text-align: center;
+    align-items: center;
+  }
+
+  #firstText {
+    font-size: 1.3rem
+  }
+
+  #container-p {
+    width: 70%;
+  }
+  #veganism {
+  width: 80vw;
+  margin-left: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #sobre {
+    display: flex;
+  }
+
+  #title {
+    font-size: 0.7rem;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  #titulos {
+    font-size: 1.4rem;
+
+  }
+
+  #master-h2-2 {
+    font-size: 2rem;
+  }
+
+  #container-p {
+    width: 90%;
+  }
+
+  #firstText {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width:325px){
+  #titulos {
+    font-size: 1.2rem;
+
+  }
+
+  #master-h2-2 {
+    font-size: 1.7rem;
+  }
+
+  #container-p {
+    width: 90%;
+  }
+
+  #firstText {
+    font-size: 1rem;
+  }
+}
+
