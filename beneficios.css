@@ -17,7 +17,7 @@
   align-items: center;
   display: grid;
   grid-template-columns: 0.2fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 0.8fr 1fr 0.1fr 1fr;
+  grid-template-rows: 0.2fr 0.8fr 1fr 0.1fr 0.4fr;
   grid-template-areas:
    'vazio2 image image intro intro intro intro'
    'vazio2 image image sau amb vazio vazio'
@@ -75,6 +75,10 @@
   align-items: center;
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.icons-beneficios {
+  margin-bottom: 0.2rem;
 }
 
 .titulos-beneficios {

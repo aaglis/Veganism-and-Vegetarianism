@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="media.css">
   <link rel="stylesheet" href="beneficios.css">
   <link rel="stylesheet" href="media-beneficios.css">
+  <link rel="stylesheet" href="diferencas.css">
+  <link rel="stylesheet" href="media-diferencas.css">
 </head>
 
 <body>
@@ -23,14 +25,14 @@
 
     <!--navbar principal-->
     <ul class="navbar">
-      <a href="#sobre">
+      <a href="#redirecionamento-sobre">
         <li>Início</li>
       </a>
-      <a href="#beneficios">
+      <a href="#redirecionamento-beneficios">
         <li>Benefícios</li>
       </a>
-      <a href="#receitas">
-        <li>Receitas</li>
+      <a href="#diferencas">
+        <li>Diferenças</li>
       </a>
       <a href="#contato">
         <li>Sobre</li>
@@ -42,14 +44,14 @@
     <div class="navbar-mobile">
 
       <ul class="navbar">
-        <a href="#sobre">
+        <a href="#redirecionamento-sobre">
           <li>Início</li>
         </a>
-        <a href="#beneficios">
+        <a href="#redirecionamento-beneficios">
           <li>Benefícios</li>
         </a>
-        <a href="#receitas">
-          <li>Receitas</li>
+        <a href="#diferencas">
+          <li>Diferenças</li>
         </a>
         <a href="#contato">
           <li>Sobre</li>
@@ -66,7 +68,7 @@
 
 
   <!--SECTION DA TELA INICIAL-->
-
+  <a href="" id="redirecionamento-sobre"></a>
   <section id="sobre">
 
     <div id="container-sobrepor">
@@ -88,16 +90,14 @@
       </div>
 
       <img src="components/imagem-do-brocolis.PNG" id="veganism">
-
+      
     </div>
   </section>
 
+  <a href="" id="redirecionamento-beneficios"></a>
   <section id="beneficios">
-
-
-
     <div class="introducao-beneficios">
-      <h1 class="h1-section">Quais os <span class="color-beneficios">Benefícios?</span></h1>
+      <h1 class="h1-section">Benefícios</h1>
       <p class="p1-section">
         O veganismo e o vegetarianismo são estilos de vida que podem trazer inúmeros benefícios para a
         saúde, o meio ambiente e os animais. Confira algumas vantagens:
@@ -153,10 +153,37 @@
     <div class="vazo2">
     </div>
     <div class="vazio3">
-
     </div>
-
   </section>
+
+  <section id="diferencas">
+    <div class="container-left">
+
+          <div class="container-principal-diferencas">
+            <h2 class="titulo-diferencas">Principais Diferenças</h2>
+          <p class="paragrafo-diferencas">Ambos têm em comum a escolha de não consumir produtos de origem animal. No entanto, existem diferenças significativas entre as duas práticas:</p>
+          </div>
+
+          <div class="imagem-mobile"></div>
+          
+          
+          <div class="elements-left">
+            <div  class="container-paragrafo">
+              <p class="texto-paragrafo">Para os veganos, é principalmente <span style="font-weight: bold;">ética.</span> A motivação é evitar todas as formas de <span style="font-weight: bold;">exploração animal</span> e, por isso, além da alimentação, os veganos abrem mão de qualquer produto de origem animal, seja para higiene, medicina, entre outros.
+              </p>
+            </div>
+  
+            <div class="container-paragrafo">
+              <p class="texto-paragrafo"> Já os vegetarianos, se opõem a <span style="font-weight: bold;">matar animais para alimentação</span>, mas consideram <span>aceitável</span> o consumo de subprodutos de origem animal, como leite e ovos. Por outro lado, os veganos acreditam que os animais têm o direito de estar <span style="font-weight: bold;">livres do uso humano</span>, seja para alimentos, roupas, ciência ou entretenimento.              
+              </p>
+            </div>
+          </div>
+    </div>        
+    <div class="container-right">
+      <img src="components/image-diferencas-fundo.PNG" alt="" class="image-3"> 
+    </div>
+  </section>
+
 </body>
 <script src="index.js"></script>
 

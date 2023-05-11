@@ -1,0 +1,61 @@
+:root {
+  --master-bg-color: #f9f9f1;
+  --sec-color-: #E06A44;
+  --thir-color: #c7c7c7;
+  --last-color: #ffffff;
+
+  --bg-color: #f3f8fa;
+  --white-color: #fff;
+  --black-color: #282936;
+  --ease-transition: cubic-bezier(0.65, 0, .076, 1);
+  --duration-transition: 0.45s;
+}
+
+
+#diferencas {
+  display: flex;
+  align-items: center;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13rem;
+}
+
+.container-principal-diferencas {
+  display: flex;
+  flex-direction: column;
+}
+.titulo-diferencas {
+  font-size: 2.6rem;
+}
+
+.paragrafo-diferencas {
+  width: 100%;
+  text-align: justify;
+  font-size: 1.55rem;
+  padding-bottom: 2.5rem;
+}
+
+
+
+.elements-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-paragrafo {
+  width: 95%;
+}
+
+.texto-paragrafo {
+  font-size: 1.45rem;
+  width: 98%;
+  padding-bottom: 1.7rem;
+  text-align: justify;
+}
+.image-3 {
+  width: 43vw;
+  margin-right: 5rem;
+}

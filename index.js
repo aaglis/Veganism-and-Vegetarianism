@@ -78,25 +78,37 @@ function menuShow() {
 
 var lastParagraphId = "";
 
-        function toggleParagraph(index) {
-            var paragraphId = "paragraph" + index;
-            var paragraph = document.getElementById(paragraphId);
+function toggleParagraph(index) {
+  var paragraphId = "paragraph" + index;
+  var paragraph = document.getElementById(paragraphId)
 
-            if (paragraphId === lastParagraphId && !paragraph.classList.contains("open-paragrafo")) {
-                paragraph.classList.add("open-paragrafo");
-                lastParagraphId = "";
-            } else {
-                for (var i = 1; i <= 4; i++) {
-                    var otherParagraphId = "paragraph" + i;
-                    var otherParagraph = document.getElementById(otherParagraphId);
+  if (paragraphId === lastParagraphId && !paragraph.classList.contains("open-paragrafo")) {
+    paragraph.classList.add("open-paragrafo")
+    lastParagraphId = ""
+  }else {
+    
+    for (var i = 1; i <= 4; i++) {
+      var otherParagraphId = "paragraph" + i
+      var otherParagraph = document.getElementById(otherParagraphId)
 
-                    if (otherParagraphId !== paragraphId && !otherParagraph.classList.contains("open-paragrafo")) {
-                        otherParagraph.classList.add("open-paragrafo");
-                        
-                    }
-                }
-
-                paragraph.classList.remove("open-paragrafo");
-                lastParagraphId = paragraphId;
-            }
+      if (otherParagraphId !== paragraphId && !otherParagraph.classList.contains("open-paragrafo")) {
+        otherParagraph.classList.add("open-paragrafo")
+          }
         }
+  paragraph.classList.remove("open-paragrafo")
+  lastParagraphId = paragraphId
+  }
+}
+
+if (window.matchMedia("(max-width: 1024px)").matches) {
+  console.log("largura de 1024px!")
+  var imagem = document.querySelector('.container-right')
+  var filho = document.querySelector('.image-3')
+  var imagemMobile = document.querySelector('.imagem-mobile')
+  imagem.removeChild(filho)
+  imagemMobile.appendChild(filho)
+} else {
+  imagemMobile.removeChild(filho)
+  imagem.appendChild(filho)
+}
+

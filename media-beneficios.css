@@ -180,7 +180,7 @@
   
   .p1-section {
     font-size: 1.3rem;
-    width: 100%;
+    width: 70%;
   }
   
   .container-ambiental,
@@ -248,12 +248,20 @@
 }
 
 @media screen and (max-width: 375px) {
+
+  .container-ambiental,
+  .container-animal,
+  .container-saude,
+  .container-recursos {
+    width: 90%;
+  }
+
   .h1-section {
     font-size: 1.8rem;
   }
 
   .p1-section {
-    font-size: 1.2rem;
+    font-size: 1.28rem;
   }
 
   #image-2 {
@@ -261,11 +269,11 @@
   }
 
   .titulos-beneficios {
-    font-size: 1.25rem;
+    font-size: 1.34rem;
   }
 
   .paragrafo-beneficios {
     text-align: justify;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
