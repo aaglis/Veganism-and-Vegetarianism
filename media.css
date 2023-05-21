@@ -390,20 +390,20 @@
 
 @media screen and (max-width: 375px) {
   #titulos {
-    font-size: 1.4rem;
+    font-size: 1.45rem;
 
   }
 
   #master-h2-2 {
-    font-size: 2rem;
+    font-size: 2.05rem;
   }
 
   #container-p {
-    width: 90%;
+    width: 92%;
   }
 
   #firstText {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
   }
 }
 

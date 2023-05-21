@@ -1,0 +1,31 @@
+@media screen and (max-width:375px) {
+
+  .titulo-principal-sobre {
+    font-size: 2rem;
+  }
+  
+  .texto-principal-sobre {
+    width: 90%;
+    align-self: center;
+    text-align:justify;
+    font-size: 1.28rem;
+  }
+  
+
+  .imagem-sobre {
+    width: 91vw;
+  }
+  
+  .agrupamento-texto-suporte {
+    width: 94%;
+    gap: 0.5rem;
+  }
+
+  .texto-suporte-sobre {
+    font-size: 1.28rem;
+  }
+
+  .agrupamento-cards {
+    flex-direction: column;
+  }
+}

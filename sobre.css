@@ -1,0 +1,163 @@
+#sobree {
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container-sobre-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-principal-sobre {
+  font-size: 2.4rem;
+}
+
+.texto-principal-sobre {
+  width: 65%;
+  font-size: 1.4rem;
+}
+
+
+
+.container-img-sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  font-style: italic;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+  background: linear-gradient(#E06A44 50%, #fff 50%);
+}
+
+.imagem-sobre {
+  border-radius: 1.1rem;
+  width: 50vw;
+}
+
+.agrupamento-texto-suporte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  width: 60%;
+}
+
+.texto-suporte-sobre {
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+
+
+.container-developers{
+  margin-top: 2rem;
+}
+
+.developers {
+  font-family: sans-serif;
+}
+
+.agrupamento-cards {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  background: linear-gradient(#E06A44, #E06A44 45%, #fff 45%, #fff 100%);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.img-bx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  transform: translateY(25px) scale(0.6);
+  transform-origin: top;
+}
+
+.img-bx img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit:none;
+}
+
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.content .detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content .detail h2 {
+  color: #444;
+  font-size: 1.6em;
+  font-weight: bolder;
+}
+
+.content .detail h2 span {
+  font-size: 0.7em;
+  color: #E06A44;
+  font-weight: bold;
+}
+
+.sci {
+  position: relative;
+  display: flex;
+  margin-top: 7px;
+}
+
+.sci p {
+  margin: 4px;
+}
+
+.sci p a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 1.5em;
+  color: #444;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.5s;
+}
+
+.sci p a:hover {
+  background: #fa9877;
+  color: #fff;
+}

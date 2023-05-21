@@ -1,0 +1,12 @@
+#footer {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.direitos {
+  position: relative;
+  top: 3.5rem;
+}
+
