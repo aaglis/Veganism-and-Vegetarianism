@@ -6,26 +6,43 @@
   
   .texto-principal-sobre {
     width: 90%;
-    align-self: center;
-    text-align:justify;
     font-size: 1.28rem;
   }
   
-
-  .imagem-sobre {
-    width: 91vw;
-  }
   
   .agrupamento-texto-suporte {
     width: 94%;
-    gap: 0.5rem;
   }
 
   .texto-suporte-sobre {
     font-size: 1.28rem;
   }
 
+}
+
+@media screen and (max-width:600px) {
   .agrupamento-cards {
     flex-direction: column;
   }
+
+  .texto-principal-sobre {
+    width: 87.5%;
+    align-self: center;
+    text-align:justify;
+    font-size: 1.35rem;
+  }
+
+  .imagem-sobre {
+    width: 90vw;
+  }
+
+  .agrupamento-texto-suporte {
+    width: 90%;
+    gap: 0.5rem;
+  }
+  
+  .texto-suporte-sobre {
+    font-size: 1.33rem;
+  }
+
 }

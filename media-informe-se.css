@@ -1,68 +1,78 @@
 @media screen and (max-width: 375px) {
-
-  .container-principal {
-    width: 100%;
-  }
-
   .titulo-informe {
     font-size: 2.2rem;
-  }
-  
-  .paragrafo-informe {
-    width: 95%;
-    font-size: 1.4rem;
-    align-self: center;
-  }
-  
-  .agrupamento-container {
-    align-items: center;
-    flex-direction: column;
   }
   .container-1 {
     width: 80%;
     padding: 50px 16px;
   }
 
-  .logo {
-    width: 35vw;
-  }
-
-  .geracao-vegana {
-    width: 34vw;
-  }
-
-  .texto-info {
-    width: 100%;
-  }
-
-  .titulo-2 {
-    position: relative;
-  }
-
-  .titulo-3{
-    position: relative;
-    top: -1.7rem;
-  }
-
-  .texto-2 {
-    position: relative;
-    top: 2.2rem;
-  }
-
-  .acesse {
-    position: initial;
-    opacity: 1;
-  }
-
-  .redirecionamento {
-    top: 3.7rem;
-  }
-
-  .titulo-container {
-    font-size: 1.45rem;
-  }
-
   .texto-info {
     font-size: 1.28rem;
   }
+}
+
+@media screen and (max-width:600px) {
+  .container-principal {
+    width: 100%;
+  }
+  .titulo-informe {
+    font-size: 2rem;
+  }
+  .paragrafo-informe {
+    width: 95%;
+    font-size: 1.4rem;
+    align-self: center;
+  }
+
+    .container-1 {
+      width: 80%;
+    }
+    .agrupamento-container {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .logo {
+      width: 35vw;
+    }
+  
+    .geracao-vegana {
+      width: 34vw;
+    }
+  
+    .texto-info {
+      width: 100%;
+    }
+  
+    .titulo-2 {
+      position: relative;
+    }
+  
+    .titulo-3{
+      position: relative;
+      top: -1.7rem;
+    }
+  
+    .texto-2 {
+      position: relative;
+      top: 2.2rem;
+    }
+  
+    .acesse {
+      position: initial;
+      opacity: 1;
+    }
+  
+    .redirecionamento {
+      top: 3.7rem;
+    }
+  
+    .titulo-container {
+      font-size: 1.45rem;
+    }
+  
+    .texto-info {
+      font-size: 1.33rem;
+    }
 }

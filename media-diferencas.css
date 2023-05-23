@@ -4,22 +4,9 @@
     display: flex;
     flex-direction: column;
   }
-  
-  .container-left {
-    display: flex;
-    margin: 0;
-  }
   .container-right {
     margin: 0;
   }
-  .image-3 {
-    margin: 0;
-    position: relative;
-    left: 1rem;
-    bottom: 1rem;
-    width: 91vw;
-  }
-
 
   .container-principal-diferencas {
     display: flex;
@@ -27,25 +14,53 @@
   }
  
   .titulo-diferencas {
-    align-self: center;
     display: flex;
     font-size: 1.8rem;
   }
 
   .paragrafo-diferencas {
     width: 94%;
-    align-self: center;
     font-size: 1.28rem;
   }
   
   .container-paragrafo {
-    align-self: center;
     width: 90%;
   }
 
-  .texto-paragrafo {
-    font-size: 1.28rem;
+}
+
+@media screen and (max-width:600px){
+  .container-left {
+    margin: 0;
+  }
+  
+  .paragrafo-diferencas {
+    width: 90%;
     align-self: center;
+    font-size: 1.33rem;
+  }
+
+  .titulo-diferencas {
+    align-self: center;
+    font-size: 2rem;
+  }
+
+  .image-3 {
+    margin: 0;
+    width: 90vw;
+    display: flex;
+    position: relative;
+    left: 2rem;
+  }
+
+  .container-paragrafo {
+    align-self: center;
+    width: 82%;
+  }
+
+  .texto-paragrafo {
+    font-size: 1.3rem;
     width: 100%;
   }
+
 }
