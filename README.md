@@ -6,7 +6,7 @@ Projeto feito sobre um trabalho escolar de algumas amigas, onde eu abracei o tra
 # Tecnologias Utilizadas:
 * HTML5
 * CSS3
-* [[JavaScript]]
+* [![JavaScript]]
   
 # Preview:
 
