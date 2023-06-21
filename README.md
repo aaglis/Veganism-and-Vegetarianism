@@ -4,9 +4,9 @@
 Projeto feito sobre um trabalho escolar de algumas amigas, onde eu abracei o trabalho e decidi fazer um site sobre(juntamente com um amigo designer).
 
 # Tecnologias Utilizadas:
-  -HTML5
-  -CSS3
-  -JavaScript
+* HTML5
+* CSS3
+* JavaScript
   
 # Preview:
 
