@@ -14,8 +14,7 @@ Projeto feito sobre um trabalho escolar de algumas amigas, onde eu abracei o tra
 
 ## Colaboradores:
 
-Aglis Silva [![LinkedIn][linkedin-shield]][linkedin-url1]
-Pedro Vinicius [![LinkedIn][linkedin-shield]][linkedin-url2]
+Aglis Silva [![LinkedIn][linkedin-shield]][linkedin-url1] || Pedro Vinicius [![LinkedIn][linkedin-shield]][linkedin-url2]
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url1]: https://www.linkedin.com/in/aglis-bernardino-da-silva/
