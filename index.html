@@ -1,56 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/components/lettuce (1).png" />
+    <title>Veganismo e Vegetarianismo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="beneficios.css" />
+    <link rel="stylesheet" href="media-beneficios.css" />
+    <link rel="stylesheet" href="diferencas.css" />
+    <link rel="stylesheet" href="media-diferencas.css" />
+    <link rel="stylesheet" href="informe-se.css" />
+    <link rel="stylesheet" href="media-informe-se.css" />
+    <link rel="stylesheet" href="sobre.css" />
+    <link rel="stylesheet" href="media-sobre.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="/components/lettuce (1).png" />
-  <title>Veganismo e Vegetarianismo</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="media.css">
-  <link rel="stylesheet" href="beneficios.css">
-  <link rel="stylesheet" href="media-beneficios.css">
-  <link rel="stylesheet" href="diferencas.css">
-  <link rel="stylesheet" href="media-diferencas.css">
-  <link rel="stylesheet" href="informe-se.css">
-  <link rel="stylesheet" href="media-informe-se.css">
-  <link rel="stylesheet" href="sobre.css">
-  <link rel="stylesheet" href="media-sobre.css">
-  <link rel="stylesheet" href="footer.css">
-</head>
+  <body>
+    <header>
+      <!--Titulo/Logo-->
+      <div id="title">
+        <h1>Veganismo e</h1>
+        <h1>Vegetarianismo</h1>
+      </div>
 
-<body>
-  <header>
-
-    <!--Titulo/Logo-->
-    <div id="title">
-      <h1>Veganismo e</h1>
-      <h1>Vegetarianismo</h1>
-    </div>
-
-    <!--navbar principal-->
-    <ul class="navbar">
-      <a href="#redirecionamento-sobre">
-        <li>Início</li>
-      </a>
-      <a href="#redirecionamento-beneficios">
-        <li>Benefícios</li>
-      </a>
-      <a href="#diferencas">
-        <li>Diferenças</li>
-      </a>
-      <a href="#informe-se">
-        <li>Informe-se</li>
-      </a>
-      <a href="#sobree">
-        <li>Sobre</li>
-      </a>
-    </ul>
-
-
-    <!--navbar versão mobile-->
-    <div class="navbar-mobile">
-
+      <!--navbar principal-->
       <ul class="navbar">
         <a href="#redirecionamento-sobre">
           <li>Início</li>
@@ -69,311 +45,447 @@
         </a>
       </ul>
 
-    </div>
-    <div class="navbar-mobile-menu">
-      <button onclick="menuShow()"><img class="icon" src="/components/icons8-menu-arredondado-30.png" alt=""></button>
-    </div>
-  </header>
+      <!--navbar versão mobile-->
+      <div class="navbar-mobile">
+        <ul class="navbar">
+          <a href="#redirecionamento-sobre">
+            <li>Início</li>
+          </a>
+          <a href="#redirecionamento-beneficios">
+            <li>Benefícios</li>
+          </a>
+          <a href="#diferencas">
+            <li>Diferenças</li>
+          </a>
+          <a href="#informe-se">
+            <li>Informe-se</li>
+          </a>
+          <a href="#sobree">
+            <li>Sobre</li>
+          </a>
+        </ul>
+      </div>
+      <div class="navbar-mobile-menu">
+        <button onclick="menuShow()">
+          <img
+            class="icon"
+            src="/components/icons8-menu-arredondado-30.png"
+            alt=""
+          />
+        </button>
+      </div>
+    </header>
 
+    <!--SECTION DA TELA INICIAL-->
+    <a href="" id="redirecionamento-sobre"></a>
+    <section id="sobre">
+      <div id="container-sobrepor">
+        <div id="titulos">
+          <h2 id="master-h2">Conheça o poder do consumo</h2>
+          <h3 id="master-h2-2">vegano e vegetariano!</h3>
 
+          <!--container para o parágrafo inicial-->
+          <div id="container-p">
+            <p id="firstText">
+              Descubra um estilo de vida mais saudável e sustentável adotando o
+              veganismo ou vegetarianismo. Na nossa página, você encontrará
+              informações completas sobre esses estilos de vida, além de dicas
+              para uma transição tranquila e receitas nutritivas para tornar a
+              jornada mais saborosa. Cuide da sua saúde e do meio ambiente
+              começando hoje mesmo!
+            </p>
+          </div>
+        </div>
 
+        <img src="components/imagem-do-brocolis.PNG" id="veganism" />
+      </div>
+    </section>
 
-  <!--SECTION DA TELA INICIAL-->
-  <a href="" id="redirecionamento-sobre"></a>
-  <section id="sobre">
+    <a href="" id="redirecionamento-beneficios"></a>
+    <section id="beneficios">
+      <div class="introducao-beneficios">
+        <h1 class="h1-section">Benefícios</h1>
+        <p class="p1-section">
+          O veganismo e o vegetarianismo são estilos de vida que podem trazer
+          inúmeros benefícios para a saúde, o meio ambiente e os animais.
+          Confira algumas vantagens:
+        </p>
+      </div>
 
-    <div id="container-sobrepor">
+      <div class="container-image">
+        <img id="image-2" src="/components/imagem-principal.avif" alt="" />
+      </div>
 
-      <div id="titulos">
+      <div class="container-saude">
+        <img
+          class="icons-beneficios"
+          src="/components/icons-beneficios/saude.png"
+          alt="icone-saude"
+        />
+        <h3 class="titulos-beneficios">Melhoria da saúde</h3>
+        <p class="paragrafo-beneficios">
+          Uma dieta vegana ou vegetariana pode reduzir o risco de doenças
+          crônicas, como doenças cardíacas, diabetes tipo 2 e certos tipos de
+          câncer, e fornecer nutrientes essenciais.
+        </p>
+      </div>
 
-        <h2 id="master-h2">Conheça o poder do consumo</h2>
-        <h3 id="master-h2-2">vegano e vegetariano!</h3>
+      <div class="container-ambiental">
+        <img
+          class="icons-beneficios"
+          src="/components/icons-beneficios/ambiental.png"
+          alt="icon-ambiental"
+        />
+        <h3 class="titulos-beneficios">Sustentabilidade ambiental</h3>
+        <p class="paragrafo-beneficios">
+          O veganismo e o vegetarianismo são opções mais sustentáveis para o
+          meio ambiente, ajudando a reduzir a pegada ecológica e o impacto
+          ambiental da produção de alimentos de origem animal.
+        </p>
+      </div>
 
-        <!--container para o parágrafo inicial-->
-        <div id="container-p">
-          <p id="firstText">Descubra um estilo de vida mais saudável e sustentável adotando o veganismo ou
-            vegetarianismo. Na nossa página, você encontrará informações completas sobre esses estilos de vida, além de dicas para uma
-            transição tranquila e receitas nutritivas para tornar a jornada mais saborosa. Cuide da sua saúde e do meio
-            ambiente começando hoje mesmo!
+      <div class="container-animal">
+        <img
+          class="icons-beneficios"
+          src="/components/icons-beneficios/cuidado-animal.png"
+          alt="icon-animal"
+        />
+        <h3 class="titulos-beneficios">Ética animal</h3>
+        <p class="paragrafo-beneficios">
+          Ao escolher uma alimentação sem produtos de origem animal, você está
+          promovendo o respeito aos direitos e o bem-estar animal, evitando a
+          exploração e o sofrimento dos animais.
+        </p>
+      </div>
+
+      <div class="container-recursos">
+        <img
+          class="icons-beneficios"
+          src="/components/icons-beneficios/global.png"
+          alt="icon-recursos"
+        />
+        <h3 class="titulos-beneficios">Economia de recursos</h3>
+        <p class="paragrafo-beneficios">
+          O veganismo e o vegetarianismo contribuem para a economia de recursos,
+          como água, terra e energia, ao preferir alimentos de origem vegetal em
+          detrimento dos alimentos de origem animal.
+        </p>
+      </div>
+
+      <div class="vazio"></div>
+      <div class="vazo2"></div>
+      <div class="vazio3"></div>
+    </section>
+
+    <section id="diferencas">
+      <div class="container-left">
+        <div class="container-principal-diferencas">
+          <h2 class="titulo-diferencas">Principais Diferenças</h2>
+          <p class="paragrafo-diferencas">
+            Ambos têm em comum a escolha de não consumir produtos de origem
+            animal. No entanto, existem diferenças significativas entre as duas
+            práticas:
           </p>
         </div>
 
-      </div>
+        <div class="imagem-mobile"></div>
 
-      <img src="components/imagem-do-brocolis.PNG" id="veganism">
-      
-    </div>
-  </section>
-
-  <a href="" id="redirecionamento-beneficios"></a>
-  <section id="beneficios">
-    <div class="introducao-beneficios">
-      <h1 class="h1-section">Benefícios</h1>
-      <p class="p1-section">
-        O veganismo e o vegetarianismo são estilos de vida que podem trazer inúmeros benefícios para a
-        saúde, o meio ambiente e os animais. Confira algumas vantagens:
-      </p>
-    </div>
-
-    <div class="container-image">
-      <img id="image-2" src="/components/imagem-principal.avif" alt="">
-    </div>
-
-
-    <div class="container-saude">
-      <img class="icons-beneficios" src="/components/icons-beneficios/saude.png" alt="icone-saude">
-      <h3 class="titulos-beneficios">Melhoria da saúde</h3>
-      <p class="paragrafo-beneficios">
-        Uma dieta vegana ou vegetariana pode reduzir o risco de doenças crônicas, como doenças cardíacas, diabetes tipo
-        2 e certos tipos de câncer, e fornecer nutrientes essenciais.
-      </p>
-    </div>
-
-    <div class="container-ambiental">
-      <img class="icons-beneficios" src="/components/icons-beneficios/ambiental.png" alt="icon-ambiental">
-      <h3 class="titulos-beneficios">Sustentabilidade ambiental</h3>
-      <p class="paragrafo-beneficios">
-        O veganismo e o vegetarianismo são opções mais sustentáveis para o meio ambiente, ajudando a reduzir a pegada
-        ecológica e o impacto ambiental da produção de alimentos de origem animal.
-      </p>
-    </div>
-
-
-    <div class="container-animal">
-      <img class="icons-beneficios" src="/components/icons-beneficios/cuidado-animal.png" alt="icon-animal">
-      <h3 class="titulos-beneficios">Ética animal</h3>
-      <p class="paragrafo-beneficios">
-        Ao escolher uma alimentação sem produtos de origem animal, você está promovendo o respeito aos direitos e o
-        bem-estar animal, evitando a exploração e o sofrimento dos animais.
-      </p>
-    </div>
-
-
-
-    <div class="container-recursos">
-      <img class="icons-beneficios" src="/components/icons-beneficios/global.png" alt="icon-recursos">
-      <h3 class="titulos-beneficios">Economia de recursos</h3>
-      <p class="paragrafo-beneficios">
-        O veganismo e o vegetarianismo contribuem para a economia de recursos, como água, terra e energia, ao preferir
-        alimentos de origem vegetal em detrimento dos alimentos de origem animal.
-      </p>
-    </div>
-
-    <div class="vazio">
-    </div>
-    <div class="vazo2">
-    </div>
-    <div class="vazio3">
-    </div>
-  </section>
-
-  <section id="diferencas">
-    <div class="container-left">
-
-          <div class="container-principal-diferencas">
-            <h2 class="titulo-diferencas">Principais Diferenças</h2>
-          <p class="paragrafo-diferencas">Ambos têm em comum a escolha de não consumir produtos de origem animal. No entanto, existem diferenças significativas entre as duas práticas:</p>
+        <div class="elements-left">
+          <div class="container-paragrafo">
+            <p class="texto-paragrafo">
+              Para os veganos, é principalmente
+              <span style="font-weight: bold">ética.</span> A motivação é evitar
+              todas as formas de
+              <span style="font-weight: bold">exploração animal</span> e, por
+              isso, além da alimentação, os veganos abrem mão de qualquer
+              produto de origem animal, seja para higiene, medicina, entre
+              outros.
+            </p>
           </div>
 
-          <div class="imagem-mobile"></div>
-          
-          
-          <div class="elements-left">
-            <div  class="container-paragrafo">
-              <p class="texto-paragrafo">Para os veganos, é principalmente <span style="font-weight: bold;">ética.</span> A motivação é evitar todas as formas de <span style="font-weight: bold;">exploração animal</span> e, por isso, além da alimentação, os veganos abrem mão de qualquer produto de origem animal, seja para higiene, medicina, entre outros.
-              </p>
-            </div>
-  
-            <div class="container-paragrafo">
-              <p class="texto-paragrafo"> Já os vegetarianos, se opõem a <span style="font-weight: bold;">matar animais para alimentação</span>, mas consideram <span>aceitável</span> o consumo de subprodutos de origem animal, como leite e ovos. Por outro lado, os veganos acreditam que os animais têm o direito de estar <span style="font-weight: bold;">livres do uso humano</span>, seja para alimentos, roupas, ciência ou entretenimento.              
-              </p>
-            </div>
+          <div class="container-paragrafo">
+            <p class="texto-paragrafo">
+              Já os vegetarianos, se opõem a
+              <span style="font-weight: bold"
+                >matar animais para alimentação</span
+              >, mas consideram <span>aceitável</span> o consumo de subprodutos
+              de origem animal, como leite e ovos. Por outro lado, os veganos
+              acreditam que os animais têm o direito de estar
+              <span style="font-weight: bold">livres do uso humano</span>, seja
+              para alimentos, roupas, ciência ou entretenimento.
+            </p>
           </div>
-    </div>        
-    <div class="container-right">
-      <img src="components/image-diferencas-fundo.PNG" alt="" class="image-3"> 
-    </div>
-  </section>
-
-  <section id="informe-se">
-    <div class="container-principal">
-      <h1 class="titulo-informe">Informe-se!</h1>
-      <p class="paragrafo-informe">Se interessou pelo assunto? Confira abaixo algumas comunidades dedicadas as pautas veganas e vegetarianas:</p>
-    </div>
-
-    <div class="agrupamento-container">
-      <!-------------------SOCIEDADE VEGETARIANA BRASILEIRA------------------->
-      <div class="container-1">
-        <div class="logo-container">
-          <img src="https://www.svb.org.br/images/svb-logo.png" alt="" class="logo">
-        </div>
-        <div class="container-info">
-          <div class="container-titulo-texto">
-            <h2 class="titulo-container">Sociedade Vegetariana Brasileira</h2>
-            <div class="texto-container">
-              <p class="texto-info">Fundada em 2003, é uma comunidade sem fins lucrativos que promove a alimentação vegana, além de ser um portal de notícias do ramo. Pequeno teste para saber se está funcionando a função do meu queridinho website</p>
-            </div>
-          </div>
-          
-          <div class="redirecionamento">
-            <a href="https://www.svb.org.br/index.php" target="_blank">
-              <img src="components/icons-informe/compartilhar.png" alt="" class="icon-compartilhar">
-            </a>
-            <a href="https://www.svb.org.br/index.php" target="_blank">
-              <p class="acesse">Acesse já!</p>
-            </a>
-          </div>
-          
         </div>
       </div>
-      <!-------------------------------GERAÇÃO VEGANA------------------------------------->
-      <div class="container-1">
-        <div class="logo-container">
-          <img src="components/icons-informe/geracao vegana.jpg" alt="" class="logo geracao-vegana">
-        </div>
-        
-        <div class="container-info">
-          <div class="container-titulo-texto">
-            <h2 class="titulo-container titulo-2">Geração Vegana</h2>
-            <div  class="texto-container">
-              <p class="texto-info texto-2">Generation Vegan é uma organização internacional sem fins lucrativos dedicada a divulgar informações sobre os benefícios ambientais, éticos, pessoais e de saúde pública de uma alimentação baseada em plantas.</p>
+      <div class="container-right">
+        <img
+          src="components/image-diferencas-fundo.PNG"
+          alt=""
+          class="image-3"
+        />
+      </div>
+    </section>
+
+    <section id="informe-se">
+      <div class="container-principal">
+        <h1 class="titulo-informe">Informe-se!</h1>
+        <p class="paragrafo-informe">
+          Se interessou pelo assunto? Confira abaixo algumas comunidades
+          dedicadas as pautas veganas e vegetarianas:
+        </p>
+      </div>
+
+      <div class="agrupamento-container">
+        <!-------------------SOCIEDADE VEGETARIANA BRASILEIRA------------------->
+        <div class="container-1">
+          <div class="logo-container">
+            <img
+              src="https://www.svb.org.br/images/svb-logo.png"
+              alt=""
+              class="logo"
+            />
+          </div>
+          <div class="container-info">
+            <div class="container-titulo-texto">
+              <h2 class="titulo-container">Sociedade Vegetariana Brasileira</h2>
+              <div class="texto-container">
+                <p class="texto-info">
+                  Fundada em 2003, é uma comunidade sem fins lucrativos que
+                  promove a alimentação vegana, além de ser um portal de
+                  notícias do ramo. Pequeno teste para saber se está funcionando
+                  a função do meu queridinho website
+                </p>
+              </div>
+            </div>
+
+            <div class="redirecionamento">
+              <a href="https://www.svb.org.br/index.php" target="_blank">
+                <img
+                  src="components/icons-informe/compartilhar.png"
+                  alt=""
+                  class="icon-compartilhar"
+                />
+              </a>
+              <a href="https://www.svb.org.br/index.php" target="_blank">
+                <p class="acesse">Acesse já!</p>
+              </a>
             </div>
           </div>
-          
-          <div class="redirecionamento">
-            <a href="https://genv.org/pt-br/" target="_blank">
-              <img src="components/icons-informe/compartilhar.png" alt="" class="icon-compartilhar">
-            </a>
-            <a href="https://genv.org/pt-br/" target="_blank">
-              <p class="acesse">Acesse já!</p>
-            </a>
+        </div>
+        <!-------------------------------GERAÇÃO VEGANA------------------------------------->
+        <div class="container-1">
+          <div class="logo-container">
+            <img
+              src="components/icons-informe/geracao vegana.jpg"
+              alt=""
+              class="logo geracao-vegana"
+            />
           </div>
-          
-        </div>
-      </div>
-      <!-----------------------------ASSOCIAÇÃO BRASILEIRA VEGANA------------------------------>
-      <div class="container-1">
-        <div class="logo-container">
-          <img src="https://veganismo.org.br/wp-content/uploads/2021/03/logo-veganismo.svg" alt="" class="logo veganismo-org">
-        </div>
-        
-        <div class="container-info">
-          <div class="container-titulo-texto">
-            <h2 class="titulo-container titulo-3">Associação Brasileira Vegana</h2>
-            <div  class="texto-container">
-              <p class="texto-info">Responsável pela certificação de produtos veganos no brasil, a ABV proporciona um guia completo sobre a alimentação vegana, além de várias receitas para preencher seu cardápio.</p>
+
+          <div class="container-info">
+            <div class="container-titulo-texto">
+              <h2 class="titulo-container titulo-2">Geração Vegana</h2>
+              <div class="texto-container">
+                <p class="texto-info texto-2">
+                  Generation Vegan é uma organização internacional sem fins
+                  lucrativos dedicada a divulgar informações sobre os benefícios
+                  ambientais, éticos, pessoais e de saúde pública de uma
+                  alimentação baseada em plantas.
+                </p>
+              </div>
+            </div>
+
+            <div class="redirecionamento">
+              <a href="https://genv.org/pt-br/" target="_blank">
+                <img
+                  src="components/icons-informe/compartilhar.png"
+                  alt=""
+                  class="icon-compartilhar"
+                />
+              </a>
+              <a href="https://genv.org/pt-br/" target="_blank">
+                <p class="acesse">Acesse já!</p>
+              </a>
             </div>
           </div>
-          
-          <div class="redirecionamento redirecionamento-3">
-            <a href="https://veganismo.org.br/" target="_blank">
-              <img src="components/icons-informe/compartilhar.png" alt="" class="icon-compartilhar">
-            </a>
-            <a href="https://veganismo.org.br/" target="_blank">
-              <p class="acesse">Acesse já!</p>
-            </a>
+        </div>
+        <!-----------------------------ASSOCIAÇÃO BRASILEIRA VEGANA------------------------------>
+        <div class="container-1">
+          <div class="logo-container">
+            <img
+              src="https://veganismo.org.br/wp-content/uploads/2021/03/logo-veganismo.svg"
+              alt=""
+              class="logo veganismo-org"
+            />
           </div>
-          
+
+          <div class="container-info">
+            <div class="container-titulo-texto">
+              <h2 class="titulo-container titulo-3">
+                Associação Brasileira Vegana
+              </h2>
+              <div class="texto-container">
+                <p class="texto-info">
+                  Responsável pela certificação de produtos veganos no brasil, a
+                  ABV proporciona um guia completo sobre a alimentação vegana,
+                  além de várias receitas para preencher seu cardápio.
+                </p>
+              </div>
+            </div>
+
+            <div class="redirecionamento redirecionamento-3">
+              <a href="https://veganismo.org.br/" target="_blank">
+                <img
+                  src="components/icons-informe/compartilhar.png"
+                  alt=""
+                  class="icon-compartilhar"
+                />
+              </a>
+              <a href="https://veganismo.org.br/" target="_blank">
+                <p class="acesse">Acesse já!</p>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-  
-      
+    </section>
 
-    </div>
-  </section>
-
-
-  <section id="sobree">
-
-    <div class="container-sobre-principal">
-      <h1 class="titulo-principal-sobre">Sobre Nós</h1>
-      <p class="texto-principal-sobre">Este trabalho foi feito por um grupo de estudantes do 2° ano do Ensino Médio, cursando o <span style="font-weight: bold;">Técnico Integrado de Estética</span>. Nosso objetivo é promover e compartilhar informações sobre o veganismo e o vegetarianismo, destacando os benefícios desses estilos de vida conscientes e sustentáveis.</p>
-    </div>
-
-    <div class="container-img-sobre">
-      <img src="components/images-sobre/grupo.jpeg" class="imagem-sobre">
-      <figcaption style="margin-top: 0.3rem;">Escola Estadual de Educação Profissional José de Barcelos</figcaption>
-      <div class="icons-footer">
-        <ul class="sci">
-          <p>
-            <a href="https://www.instagram.com/vegandietjb/" target="_blank" class="icon-footer"><i class="fab fa-instagram"></i></a>
-          </p>
-        </ul> 
+    <section id="sobree">
+      <div class="container-sobre-principal">
+        <h1 class="titulo-principal-sobre">Sobre Nós</h1>
+        <p class="texto-principal-sobre">
+          Este trabalho foi feito por um grupo de estudantes do 2° ano do Ensino
+          Médio, cursando o
+          <span style="font-weight: bold">Técnico Integrado de Estética</span>.
+          Nosso objetivo é promover e compartilhar informações sobre o veganismo
+          e o vegetarianismo, destacando os benefícios desses estilos de vida
+          conscientes e sustentáveis.
+        </p>
       </div>
-    </div>
 
+      <div class="container-img-sobre">
+        <img src="components/images-sobre/grupo.jpeg" class="imagem-sobre" />
+        <figcaption style="margin-top: 0.3rem">
+          Escola Estadual de Educação Profissional José de Barcelos
+        </figcaption>
+        <div class="icons-footer">
+          <ul class="sci">
+            <p>
+              <a
+                href="https://www.instagram.com/vegandietjb/"
+                target="_blank"
+                class="icon-footer"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </p>
+          </ul>
+        </div>
+      </div>
 
       <div class="agrupamento-texto-suporte">
-        <p class="texto-suporte-sobre">Além disso, o trabalho foi desenvolvido sob a supervisão da nossa  professora orientadora <span style="font-weight: bold;">Victoria Almeida</span>. Ela tem sido uma inspiração para nós, guiando e incentivando nosso aprendizado sobre esses temas tão importantes.</p>
-        <p class="texto-suporte-sobre">Foi então que ao percebermos o potencial do nosso trabalho, buscamos formas de ampliar seu impacto, e então encontramos um programador e um designer que abraçaram a ideia, fazendo com que se tornasse possível a criação deste site para disseminar informações sobre a importância do veganismo e vegetarianismo.</p>
+        <p class="texto-suporte-sobre">
+          Além disso, o trabalho foi desenvolvido sob a supervisão da nossa
+          professora orientadora
+          <span style="font-weight: bold">Victoria Almeida</span>. Ela tem sido
+          uma inspiração para nós, guiando e incentivando nosso aprendizado
+          sobre esses temas tão importantes.
+        </p>
+        <p class="texto-suporte-sobre">
+          Foi então que ao percebermos o potencial do nosso trabalho, buscamos
+          formas de ampliar seu impacto, e então encontramos um programador e um
+          designer que abraçaram a ideia, fazendo com que se tornasse possível a
+          criação deste site para disseminar informações sobre a importância do
+          veganismo e vegetarianismo.
+        </p>
       </div>
 
-
-    <div class="agrupamento-cards">
-
-      <div class="card">
-        <div class="img-bx">
-          <img src="components/images-sobre/aglis silva (1).jpeg" alt="img" />
+      <div class="agrupamento-cards">
+        <div class="card">
+          <div class="img-bx">
+            <img src="components/images-sobre/aglis silva (1).jpeg" alt="img" />
+          </div>
+          <div class="content">
+            <div class="detail">
+              <h2>Aglis Silva<br /><span>Front-End Developer</span></h2>
+              <ul class="sci">
+                <p>
+                  <a href="https://twitter.com/aglinhos" target="_blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/aglis-bernardino-da-silva-ba6b84240/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.instagram.com/aglis_silvaa/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </p>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="content">
-          <div class="detail">
-            <h2>Aglis Silva<br /><span>Front-End Developer</span></h2>
-            <ul class="sci">
-              <p>
-                <a href="https://twitter.com/aglinhos" target="_blank"><i class="fab fa-twitter"></i></a>
-              </p>
-              <p>
-                <a href="https://www.linkedin.com/in/aglis-bernardino-da-silva-ba6b84240/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-              </p>
-              <p>
-                <a href="https://www.instagram.com/aglis_silvaa/" target="_blank"><i class="fab fa-instagram"></i></a>
-              </p>
-            </ul>
+
+        <div class="card">
+          <div class="img-bx">
+            <img
+              src="components/images-sobre/pedro vinivius (1).jpeg"
+              alt="img"
+            />
+          </div>
+          <div class="content">
+            <div class="detail">
+              <h2>Pedro Vinicius<br /><span>UX/UI Designer</span></h2>
+              <ul class="sci">
+                <p>
+                  <a href="https://twitter.com/pedrinvss" target="_blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/pedro-vinicius-de-sousa-silva/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.instagram.com/pedrovdesign/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </p>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-  
-      <div class="card">
-        <div class="img-bx">
-          <img src="components/images-sobre/pedro vinivius (1).jpeg" alt="img" />
-        </div>
-        <div class="content">
-          <div class="detail">
-            <h2>Pedro Vinicius<br /><span>UX/UI Designer</span></h2>
-            <ul class="sci">
-              <p>
-                <a href="https://twitter.com/pedrinvss" target="_blank"><i class="fab fa-twitter"></i></a>
-              </p>
-              <p>
-                <a href="https://www.linkedin.com/in/pedro-vinicius-de-sousa-silva/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-              </p>
-              <p>
-                <a href="https://www.instagram.com/pedrovdesign/" target="_blank"><i class="fab fa-instagram"></i></a>
-              </p>
-            </ul>
-          </div>
-        </div>
+
+      <div class="agrupamento-texto-suporte">
+        <p class="texto-suporte-sobre">
+          Estamos empolgados em compartilhar nosso conhecimento e ajudar a
+          conscientizar as pessoas sobre as escolhas alimentares e de estilo de
+          vida que têm um impacto positivo na saúde, nos animais e no meio
+          ambiente. Esperamos que você encontre inspiração e informações úteis
+          em nosso site!
+        </p>
       </div>
+    </section>
 
-    </div>
-
-    <div class="agrupamento-texto-suporte">
-      <p class="texto-suporte-sobre">Estamos empolgados em compartilhar nosso conhecimento e ajudar a conscientizar as pessoas sobre as escolhas alimentares e de estilo de vida que têm um impacto positivo na saúde, nos animais e no meio ambiente. Esperamos que você encontre inspiração e informações úteis em nosso site!</p>
-    </div>
-
-  </section>
-
-  <section id="footer">
-
-    <p class="direitos">Copyright ©2023 All rights reserved </p>
-
-  </section>
-</body>
-<script
-      src="https://kit.fontawesome.com/66aa7c98b3.js"
-      crossorigin="anonymous"
-    ></script>
-<script src="index.js"></script>
-
-
+    <section id="footer">
+      <p class="direitos">Copyright ©2023 All rights reserved</p>
+    </section>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/66aa7c98b3.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="index.js"></script>
 </html>

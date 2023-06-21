@@ -104,7 +104,6 @@ li:hover::after {
   width: 100%;
 }
 
-
 #sobre {
   display: flex;
   position: relative;
@@ -130,9 +129,7 @@ li:hover::after {
 }
 
 #container-p {
-
   width:32%;
-
 }
 
 #firstText {
@@ -141,9 +138,7 @@ li:hover::after {
   margin-top: 1.4rem;
   margin-left: 1.1rem;
   line-height: 2.3rem;
-  /*deixa o texto alinhado*/
   text-align: justify;
-
 }
 
 #veganism {
@@ -151,7 +146,7 @@ li:hover::after {
   mix-blend-mode:darken;
   width: 42vw;
   margin-top: 20px;
-  margin-left: 53rem; /* TIRA O FUNDO DA IMAGEM!!!!!!!!!!*/
+  margin-left: 53rem;
 }
 
 #container-sobrepor {

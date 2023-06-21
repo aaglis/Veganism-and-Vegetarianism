@@ -1,13 +1,13 @@
 :root {
   --master-bg-color: #f9f9f1;
-  --sec-color-: #E06A44;
+  --sec-color-: #e06a44;
   --thir-color: #c7c7c7;
   --last-color: #ffffff;
 
   --bg-color: #f3f8fa;
   --white-color: #fff;
   --black-color: #282936;
-  --ease-transition: cubic-bezier(0.65, 0, .076, 1);
+  --ease-transition: cubic-bezier(0.65, 0, 0.076, 1);
   --duration-transition: 0.45s;
 }
 
@@ -48,7 +48,7 @@
   border: 5px solid #fff;
   border-radius: 3rem;
   background: linear-gradient(to bottom, #f7ad95 44%, #fff 44%);
-  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   text-align: center;
 }
@@ -70,7 +70,6 @@
   border-radius: 100%;
 }
 
-
 .container-info {
   display: flex;
   flex-direction: column;
@@ -87,8 +86,8 @@
   transition: 1s ease all;
 }
 
-.acesse { 
-  border-bottom: 2px solid #E06A44;
+.acesse {
+  border-bottom: 2px solid #e06a44;
   font-size: 1.3rem;
   opacity: 0;
   position: absolute;
@@ -96,22 +95,24 @@
   transition: 0.5s ease all;
 }
 .container-1:hover {
-  box-shadow: 0 8px 50px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 0.3);
 
   .acesse {
     position: relative;
     opacity: 1;
     transform: translateX(0);
-    transition: 1.5s 0.1s ease-in opacity, 1.5s 0.0.3s cubic-bezier(.175, .885, .32, 1.275) transform;
+    transition: 1.5s 0.1s ease-in opacity,
+      1.5s 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) transform;
   }
 
   .icon-compartilhar {
     transform: translateX(0);
-    transition: 2s ease-in opacity, 1s  cubic-bezier(.175, .885, .32, 1.275) transform;
+    transition: 2s ease-in opacity,
+      1s cubic-bezier(0.175, 0.885, 0.32, 1.275) transform;
   }
 }
 
-.titulo-container { 
+.titulo-container {
   position: relative;
   font-size: 1.6rem;
   top: -1rem;
@@ -139,10 +140,8 @@
   gap: 0.5rem;
   cursor: pointer;
   justify-content: center;
-
 }
 
 .redirecionamento-3 {
   top: 7.1rem;
 }
-

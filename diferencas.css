@@ -1,16 +1,15 @@
 :root {
   --master-bg-color: #f9f9f1;
-  --sec-color-: #E06A44;
+  --sec-color-: #e06a44;
   --thir-color: #c7c7c7;
   --last-color: #ffffff;
 
   --bg-color: #f3f8fa;
   --white-color: #fff;
   --black-color: #282936;
-  --ease-transition: cubic-bezier(0.65, 0, .076, 1);
+  --ease-transition: cubic-bezier(0.65, 0, 0.076, 1);
   --duration-transition: 0.45s;
 }
-
 
 #diferencas {
   display: flex;
@@ -38,8 +37,6 @@
   font-size: 1.55rem;
   padding-bottom: 2.5rem;
 }
-
-
 
 .elements-left {
   display: flex;
